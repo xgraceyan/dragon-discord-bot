@@ -22,7 +22,7 @@ for (const file of commandFiles) {
 var con = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "dudu0809",
+  password: "**REDACTED**",
   database: "dragons",
 });
 
@@ -85,4 +85,4 @@ bot.on("message", (message) => {
   );
 });
 
-bot.login("ODYxNjg5NDk5NzkyNzAzNDk4.YONc4g.sjKw61za9HE0EPnppenHaKnGO1Q");
+bot.login("**TOKEN REDACTED**");
